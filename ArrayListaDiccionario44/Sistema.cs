@@ -113,7 +113,8 @@ namespace ArrayListaDiccionario44
 				else
 				{
 					MostrarUsuario();
-					Console.WriteLine("\n No existe un Usuario con el código *" + nombre + "*. ");
+					Console.WriteLine("\n Usted ingresó *" + nombre + "*. \n Recuerde que si desea eliminar ingrese solo " +
+                                      "el nombre, de lo contrario volverá al menú.");
 					Validador.VolverMenu();
 				}
 
